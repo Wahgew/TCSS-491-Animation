@@ -18,4 +18,4 @@ class Samurai {
     draw(ctx) {
         this.animator.drawFrame(this.game.clockTick, ctx, this.x,this.y);
     };
-};
+}

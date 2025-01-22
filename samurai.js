@@ -12,7 +12,6 @@ class Samurai {
         if (this.x > 1920) {
             this.x = 0;
         }
-
     };
 
     draw(ctx) {

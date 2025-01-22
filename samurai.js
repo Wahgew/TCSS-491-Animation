@@ -1,7 +1,7 @@
 class Samurai {
     constructor(game) {
         this.game = game;
-        this.animator = new Animator(ASSET_MANAGER.getAsset("Sprites/running.png"), 20, 0, 128,90, 8, 0.2);
+        this.animator = new Animator(ASSET_MANAGER.getAsset("./Sprites/running.png"), 2, 0, 68,90, 8, 0.1);
         this.x = 0;
         this.y = 0;
         this.speed = 200;

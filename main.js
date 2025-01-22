@@ -2,7 +2,7 @@ const gameEngine = new GameEngine();
 
 const ASSET_MANAGER = new AssetManager();
 
-ASSET_MANAGER.queueDownload("Sprites/running.png");
+ASSET_MANAGER.queueDownload("./Sprites/running.png");
 //ASSET_MANAGER.queueDownload("Sprites/walking.png");
 
 ASSET_MANAGER.downloadAll(() => {
